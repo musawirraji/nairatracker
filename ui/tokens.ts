@@ -1,0 +1,21 @@
+export const T = {
+  color: {
+    bg:           '#07070F',
+    surface:      '#0D0D1A',
+    border:       'rgba(255,208,50,0.1)',
+    borderStrong: 'rgba(255,208,50,0.22)',
+    gold:         '#FFD032',
+    goldDim:      'rgba(255,208,50,0.14)',
+    green:        '#00E676',
+    greenDim:     'rgba(0,230,118,0.12)',
+    red:          '#FF3D57',
+    redDim:       'rgba(255,61,87,0.12)',
+    blue:         '#4FC3F7',
+    text:         '#EDEBE4',
+    soft:         '#9997A0',
+    dim:          '#44424E',
+  },
+  r: { sm: 8, md: 12, lg: 16, xl: 20, full: 9999 },
+  f: { xs: 11, sm: 12, base: 14, md: 15, lg: 18, xl: 22, '2xl': 28, '3xl': 36, '4xl': 44 },
+  s: { xs: 4, sm: 8, md: 12, lg: 16, xl: 20, '2xl': 28 },
+} as const;
